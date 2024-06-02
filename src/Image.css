@@ -1,0 +1,25 @@
+.imgTag{
+    width: 350px;
+    height: 350px;
+    padding:15px 15px 0px 15px;
+}
+.author{
+    font: 20px bold ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 0 0 20px;
+    
+    
+}
+.Image{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:30px;
+    display: flexbox;
+    transition: 0.15s;
+}
+.Image:hover{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 #555555, 0 6px 20px 0 #555555;
+    margin:20px;
+    display: flexbox;
+}
