@@ -2,20 +2,23 @@
     width: 350px;
     height: 350px;
     padding:15px 15px 0px 15px;
+    margin-bottom: 13px;
 }
 .author{
     font: 20px bold ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 0 0 0 20px;
-    
-    
+    padding: 0 0 0 25px;
+    width: 300px;
 }
+
 .Image{
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin:30px;
     display: flexbox;
     transition: 0.15s;
+    width: 380px;
+    height: 430px;
 }
 .Image:hover{
     border-radius: 10px;
